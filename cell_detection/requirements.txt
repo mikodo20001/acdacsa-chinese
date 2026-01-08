@@ -1,0 +1,37 @@
+# YOLOv8 Medical Cell Detection System Requirements
+# 医学细胞检测系统依赖包
+
+# 核心深度学习框架
+ultralytics>=8.0.0  # YOLOv8官方库
+torch>=1.9.0  # PyTorch深度学习框架
+torchvision>=0.10.0  # PyTorch视觉库
+
+# 数据处理
+numpy>=1.19.0  # 数组计算
+pandas>=1.1.0  # 数据分析
+opencv-python>=4.5.0  # 图像处理
+Pillow>=8.0.0  # 图像处理库
+scikit-learn>=0.24.0  # 机器学习工具
+
+# 可视化
+matplotlib>=3.3.0  # 绘图库
+seaborn>=0.11.0  # 统计可视化
+plotly>=5.0.0  # 交互式图表
+
+# 标注工具
+labelme>=4.5.0  # 图像标注工具
+
+# 进度条
+tqdm>=4.60.0  # 进度条显示
+
+# 配置文件处理
+PyYAML>=5.4.0  # YAML配置文件解析
+
+# GUI界面
+PyQt5>=5.15.0  # Qt图形界面框架
+PyQt5-sip>=12.8.0  # PyQt5 SIP模块
+
+# 其他工具
+scipy>=1.5.0  # 科学计算
+albumentations>=1.0.0  # 数据增强库（可选）
+tensorboard>=2.5.0  # 训练可视化（可选）
